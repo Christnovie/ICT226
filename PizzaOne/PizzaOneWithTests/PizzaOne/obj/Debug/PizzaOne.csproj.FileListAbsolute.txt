@@ -1,0 +1,12 @@
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOneWithTests\PizzaOne\obj\Debug\PizzaOne.csproj.CoreCompileInputs.cache
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOneWithTests\PizzaOne\bin\Debug\PizzaOne.dll
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOneWithTests\PizzaOne\bin\Debug\PizzaOne.pdb
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOneWithTests\PizzaOne\obj\Debug\PizzaOne.dll
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOneWithTests\PizzaOne\obj\Debug\PizzaOne.pdb
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOneWithTests\PizzaOne\obj\Debug\PizzaOne.csprojAssemblyReference.cache
+D:\Informatique\ICT226A\PizzaOne\PizzaOne\PizzaOneWithTests\PizzaOne\bin\Debug\PizzaOne.dll
+D:\Informatique\ICT226A\PizzaOne\PizzaOne\PizzaOneWithTests\PizzaOne\bin\Debug\PizzaOne.pdb
+D:\Informatique\ICT226A\PizzaOne\PizzaOne\PizzaOneWithTests\PizzaOne\obj\Debug\PizzaOne.csprojAssemblyReference.cache
+D:\Informatique\ICT226A\PizzaOne\PizzaOne\PizzaOneWithTests\PizzaOne\obj\Debug\PizzaOne.csproj.CoreCompileInputs.cache
+D:\Informatique\ICT226A\PizzaOne\PizzaOne\PizzaOneWithTests\PizzaOne\obj\Debug\PizzaOne.dll
+D:\Informatique\ICT226A\PizzaOne\PizzaOne\PizzaOneWithTests\PizzaOne\obj\Debug\PizzaOne.pdb

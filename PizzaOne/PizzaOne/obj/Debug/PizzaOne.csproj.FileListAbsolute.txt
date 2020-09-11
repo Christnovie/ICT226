@@ -1,0 +1,16 @@
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\obj\Debug\PizzaOne.csprojAssemblyReference.cache
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\obj\Debug\PizzaOne.csproj.CoreCompileInputs.cache
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\bin\Debug\PizzaOne.dll
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\bin\Debug\PizzaOne.pdb
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\bin\Debug\BouncyCastle.Crypto.dll
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\bin\Debug\NPOI.dll
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\bin\Debug\NPOI.OOXML.dll
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\bin\Debug\NPOI.OpenXml4Net.dll
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\bin\Debug\BouncyCastle.Crypto.xml
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\obj\Debug\PizzaOne.csproj.CopyComplete
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\obj\Debug\PizzaOne.dll
+C:\ICT-226\Exercices\PizzaOne\PizzaOne\PizzaOne\obj\Debug\PizzaOne.pdb

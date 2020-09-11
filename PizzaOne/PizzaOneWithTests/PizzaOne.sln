@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaOne", "PizzaOne\PizzaOne.csproj", "{2EADF150-1782-493D-B8CC-25DBF5AD3F98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaOneTests", "PizzaOneTests\PizzaOneTests.csproj", "{E804017A-C3C2-4DD9-92BE-2FEA4C073943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaCommend", "PizzaCommend\PizzaCommend.csproj", "{CC1DA0F9-73D4-4BB4-B4B8-2322F4558BF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EADF150-1782-493D-B8CC-25DBF5AD3F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EADF150-1782-493D-B8CC-25DBF5AD3F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EADF150-1782-493D-B8CC-25DBF5AD3F98}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EADF150-1782-493D-B8CC-25DBF5AD3F98}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E804017A-C3C2-4DD9-92BE-2FEA4C073943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E804017A-C3C2-4DD9-92BE-2FEA4C073943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E804017A-C3C2-4DD9-92BE-2FEA4C073943}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E804017A-C3C2-4DD9-92BE-2FEA4C073943}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CC1DA0F9-73D4-4BB4-B4B8-2322F4558BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1DA0F9-73D4-4BB4-B4B8-2322F4558BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC1DA0F9-73D4-4BB4-B4B8-2322F4558BF2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1DA0F9-73D4-4BB4-B4B8-2322F4558BF2}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E41BEE6-7E02-448A-AE52-F11C3DA821E6}
+	EndGlobalSection
+EndGlobal
