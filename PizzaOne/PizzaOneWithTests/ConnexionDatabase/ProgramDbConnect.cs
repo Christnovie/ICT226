@@ -9,7 +9,7 @@ using ConnexionDatabase;
 
 namespace ConnexionDatabase
 {
-    class ProgramDbConnect
+    public class ProgramDbConnect
     {
         private int  port;
         private string server = "localhost";

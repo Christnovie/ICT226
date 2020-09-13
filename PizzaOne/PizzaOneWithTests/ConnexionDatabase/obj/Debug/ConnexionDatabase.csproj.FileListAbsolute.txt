@@ -7,3 +7,6 @@ C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\bin\Deb
 C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\obj\Debug\ConnexionDatabase.csproj.CopyComplete
 C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\obj\Debug\ConnexionDatabase.exe
 C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\obj\Debug\ConnexionDatabase.pdb
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\bin\Debug\Google.Protobuf.dll
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\bin\Debug\BouncyCastle.Crypto.dll
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\bin\Debug\Renci.SshNet.dll

@@ -46,3 +46,9 @@ C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\obj\Debug\Pi
 C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\obj\Debug\PizzaCommend.csproj.CopyComplete
 C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\obj\Debug\PizzaCommend.exe
 C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\obj\Debug\PizzaCommend.pdb
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\MySql.Data.dll
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\Google.Protobuf.dll
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\BouncyCastle.Crypto.dll
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\Ubiety.Dns.Core.dll
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\Renci.SshNet.dll
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\MySql.Data.xml
