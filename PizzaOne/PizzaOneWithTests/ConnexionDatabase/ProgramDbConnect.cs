@@ -31,17 +31,38 @@ namespace ConnexionDatabase
             string sslMode = "None";
          
 
-        
+            //seting for connect to mysql database
             string dbConnector = $"server={server};port={port};uid={iud};pwd={password};database={database};charset={charset};sslMode={sslMode}"; 
 
             Console.WriteLine("connexion tu mysql database :");
             try
             {
-
+                //conncting to database 
                 MySqlConnection connect = new MySqlConnection(dbConnector);
+
+                //open database connected 
                 connect.Open();
                 Console.WriteLine("Connection is " + connect.State.ToString() + Environment.NewLine);
+                //create new objet script line for write script
                 MySqlCommand command = connect.CreateCommand();
+                //Diplay data
+                command.CommandType = System.Data.CommandType.Text;
+                //writing script
+                command.CommandText = $"SELECT * FROM {database}.users";
+                //execute query and get query result 
+                MySqlDataReader reader = command.ExecuteReader();
+                string showResult = "[ID]\t[Name]\t[Password]"+Environment.NewLine;
+                //Show in console the script result
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        showResult += Convert.ToString(reader.GetUInt32(0)) + "\t" + reader.GetString(1) + "\t" + reader.GetString(2) + Environment.NewLine;
+                    }
+                    reader.Close();
+                }
+                Console.WriteLine(showResult);
+                //Close and deconnect database
                 connect.Close();
                 Console.WriteLine("Connection is " + connect.State.ToString() + Environment.NewLine);
 
