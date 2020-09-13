@@ -1,0 +1,9 @@
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\obj\Debug\ConnexionDatabase.csprojAssemblyReference.cache
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\obj\Debug\ConnexionDatabase.csproj.CoreCompileInputs.cache
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\bin\Debug\ConnexionDatabase.exe.config
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\bin\Debug\ConnexionDatabase.exe
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\bin\Debug\ConnexionDatabase.pdb
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\bin\Debug\MySql.Data.dll
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\obj\Debug\ConnexionDatabase.csproj.CopyComplete
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\obj\Debug\ConnexionDatabase.exe
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\ConnexionDatabase\obj\Debug\ConnexionDatabase.pdb

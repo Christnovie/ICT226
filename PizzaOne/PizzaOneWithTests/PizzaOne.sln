@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaOneTests", "PizzaOneTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaCommend", "PizzaCommend\PizzaCommend.csproj", "{CC1DA0F9-73D4-4BB4-B4B8-2322F4558BF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnexionDatabase", "ConnexionDatabase\ConnexionDatabase.csproj", "{489C6928-EAB9-4DF3-B0D4-DA86CE7761D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CC1DA0F9-73D4-4BB4-B4B8-2322F4558BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC1DA0F9-73D4-4BB4-B4B8-2322F4558BF2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{CC1DA0F9-73D4-4BB4-B4B8-2322F4558BF2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{489C6928-EAB9-4DF3-B0D4-DA86CE7761D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489C6928-EAB9-4DF3-B0D4-DA86CE7761D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489C6928-EAB9-4DF3-B0D4-DA86CE7761D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489C6928-EAB9-4DF3-B0D4-DA86CE7761D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
