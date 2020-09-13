@@ -85,5 +85,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConnexionDatabase\ConnexionDatabase.csproj">
+      <Project>{489c6928-eab9-4df3-b0d4-da86ce7761d9}</Project>
+      <Name>ConnexionDatabase</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

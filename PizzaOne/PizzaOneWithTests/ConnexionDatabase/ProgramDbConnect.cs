@@ -11,7 +11,7 @@ namespace ConnexionDatabase
 {
     class ProgramDbConnect
     {
-        private Int16 port = 3306;
+        private int  port;
         private string server = "localhost";
         private string iud;
         private string password;
@@ -22,7 +22,8 @@ namespace ConnexionDatabase
 
         static void Main(string[] args)
         {
-            Int16 port = 3306;
+            //initialidation des variable
+            int port = 3306;
             string server = "localhost";
             string iud = "cmysql";
             string password="password";
@@ -79,21 +80,44 @@ namespace ConnexionDatabase
 
 
         }
-        public  ProgramDbConnect(string user, string password,string dbname)
+        public  ProgramDbConnect(string user, string password,string dbname,int port)
         {
             iud = user;
             this.password = password;
             database = dbname;
+            this.port = port;
             string con = Login;
-            
+           
             Console.WriteLine("connexion tu mysql database :");
             try
             {
 
+                //conncting to database 
                 MySqlConnection connect = new MySqlConnection(con);
+
+                //open database connected 
                 connect.Open();
                 Console.WriteLine("Connection is " + connect.State.ToString() + Environment.NewLine);
-
+                //create new objet script line for write script
+                MySqlCommand command = connect.CreateCommand();
+                //Diplay data
+                command.CommandType = System.Data.CommandType.Text;
+                //writing script
+                command.CommandText = $"SELECT * FROM {database}.users";
+                //execute query and get query result 
+                MySqlDataReader reader = command.ExecuteReader();
+                string showResult = "[ID]\t[Name]\t[Password]" + Environment.NewLine;
+                //Show in console the script result
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        showResult += Convert.ToString(reader.GetUInt32(0)) + "\t" + reader.GetString(1) + "\t" + reader.GetString(2) + Environment.NewLine;
+                    }
+                    reader.Close();
+                }
+                Console.WriteLine(showResult);
+                //Close and deconnect database
                 connect.Close();
                 Console.WriteLine("Connection is " + connect.State.ToString() + Environment.NewLine);
 
