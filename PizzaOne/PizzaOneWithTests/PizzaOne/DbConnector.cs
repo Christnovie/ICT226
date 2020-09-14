@@ -19,7 +19,7 @@ namespace PizzaOne
         private string dbConnector;
         private string connect;
 
-        public DbConnector(string user, string password, string query, string dbname = "cdatabase", int port = 3306)
+        public DbConnector(string user, string password, string query, string dbname, int port = 3306)
         {
             iud = user;
             this.password = password;

@@ -20,7 +20,7 @@ namespace ConnexionDatabase
         private string sslMode = "None";
         private string dbConnector;
 
-        static void Main(string[] args)
+        static void Maine()
         {
             //initialidation des variable
             int port = 3306;

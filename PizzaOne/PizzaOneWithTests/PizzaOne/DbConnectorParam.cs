@@ -11,12 +11,12 @@ namespace PizzaOne
         private string user ="cmysql";
         private string password ="password";
         private int ports=default;
-        private string database=default;
+        private string database="cdatabase";
         private string result;
 
         public DbConnectorParam(string query)
         {
-            DbConnector loginCheck = new DbConnector(user,password,query);
+            DbConnector loginCheck = new DbConnector(user,password,query,database);
             result = loginCheck.Result;
 
         }

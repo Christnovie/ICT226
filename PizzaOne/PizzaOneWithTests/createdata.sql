@@ -13,7 +13,7 @@
 
 
 -- Dumping database structure for c# databaseexerce
-DROP DATABASE IF EXISTS `c# databaseexerce`;
+DROP DATABASE IF EXISTS `cdatabase`;
 CREATE DATABASE IF NOT EXISTS `cdatabase` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `cdatabase`;
 
