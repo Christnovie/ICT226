@@ -40,7 +40,7 @@ namespace PizzaOne
 
                 //open database connected 
                 connect.Open();
-                Console.WriteLine("Connection is " + connect.State.ToString() + Environment.NewLine);
+                
                 //create new objet script line for write script
                 MySqlCommand command = connect.CreateCommand();
                 //Diplay data
@@ -50,23 +50,23 @@ namespace PizzaOne
                 //execute query and get query result 
                 MySqlDataReader reader = command.ExecuteReader();
                
-                string showResult = "[ID]\t[Name]\t[Password]\r\n" ;
+                string showResult = "";
                 //Show in console the script result
                 if (reader.HasRows)
                 {
                     while (reader.Read())
                     {
                         //pick up result of script and input it in the string var
-                        showResult += Convert.ToString(reader.GetUInt32(0)) + "\t" + reader.GetString(1) + "\t" + reader.GetString(2) + "\r\n";
+                        showResult = reader.GetString(0);
                     }
                     reader.Close();
                 }
-                Console.WriteLine(showResult);
+                
                 
                 //Close and deconnect database
                 connect.Close();
                 return showResult;
-                Console.WriteLine("Connection is " + connect.State.ToString() + Environment.NewLine);
+                
 
             }
             catch (MySql.Data.MySqlClient.MySqlException ex)
@@ -76,8 +76,7 @@ namespace PizzaOne
                 return null;
             }
 
-            Console.WriteLine("Press any key to exit...");
-            Console.Read();
+            
         }
         public string Result
         {

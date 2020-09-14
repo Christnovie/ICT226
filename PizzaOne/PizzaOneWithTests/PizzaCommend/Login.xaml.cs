@@ -32,7 +32,7 @@ namespace PizzaCommend
             InitializeComponent();
         }
 
-        private int cmd_Submit_Click(object sender, RoutedEventArgs e)
+        private  void  cmd_Submit_Click(object sender, RoutedEventArgs e)
         {
             string name = txt_Name.Text;
             string password = txt_password.Text;
@@ -45,17 +45,26 @@ namespace PizzaCommend
                 if (password == loginCheck.Result)
                     Console.WriteLine("Connexion reussi");
                 else
+                {
                     Console.WriteLine("Connexion fail");
-                return 0;
+
+                }
+              
+                Application.Current.Shutdown();
+              
             }
             else
             {
-
-                return 0;
+               
+                Application.Current.Shutdown(0);
+                
             }
 
         }
 
+        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        {
 
+        }
     }
 }

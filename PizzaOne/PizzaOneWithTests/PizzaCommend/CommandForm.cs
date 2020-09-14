@@ -50,10 +50,12 @@ namespace PizzaCommend
 
         private void cmdAdress_Click(object sender, EventArgs e)
         {
-            wpfInteger login = new wpfInteger();
+            wnd_Login2 login = new wnd_Login2();
             if (login.ShowDialog() == DialogResult.OK)
             {
-
+                MessageBox.Show("connection reussi");
+                lblName.Text = login.User;
+                txtName.Text = login.User;
             }
         }
     }

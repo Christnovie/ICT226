@@ -14,8 +14,8 @@
 
 -- Dumping database structure for c# databaseexerce
 DROP DATABASE IF EXISTS `c# databaseexerce`;
-CREATE DATABASE IF NOT EXISTS `c# databaseexerce` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `c# databaseexerce`;
+CREATE DATABASE IF NOT EXISTS `cdatabase` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `cdatabase`;
 
 -- Dumping structure for table c# databaseexerce.users
 DROP TABLE IF EXISTS `users`;
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `Password` varchar(100) NOT NULL,
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
+INSERT INTO cdatabase.users(users.Name,users.Password) VALUE("test",PASSWORD);
 -- Data exporting was unselected.
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

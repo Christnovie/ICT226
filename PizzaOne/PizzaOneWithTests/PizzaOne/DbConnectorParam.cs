@@ -16,7 +16,7 @@ namespace PizzaOne
 
         public DbConnectorParam(string query)
         {
-            DbConnector loginCheck = new DbConnector(user,password,query,database,ports);
+            DbConnector loginCheck = new DbConnector(user,password,query);
             result = loginCheck.Result;
 
         }
@@ -24,8 +24,6 @@ namespace PizzaOne
         {
             get
             {
-                
-
                 return result; 
             }
             
