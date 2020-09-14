@@ -12,24 +12,23 @@ namespace PizzaOne
         private string password ="password";
         private int ports=default;
         private string database=default;
+        private string result;
+
         public DbConnectorParam(string query)
         {
             DbConnector loginCheck = new DbConnector(user,password,query,database,ports);
-            Result = loginCheck.Result;
+            result = loginCheck.Result;
 
         }
         public string Result
         {
             get
             {
-                string result = Result.ToString();
+                
 
-                return result;
+                return result; 
             }
-            set
-            {
-
-            }
+            
         }
     }
 }

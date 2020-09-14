@@ -52,3 +52,4 @@ C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\Bo
 C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\Ubiety.Dns.Core.dll
 C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\Renci.SshNet.dll
 C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\MySql.Data.xml
+C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\obj\Debug\PizzaCommend.wpfInteger.resources

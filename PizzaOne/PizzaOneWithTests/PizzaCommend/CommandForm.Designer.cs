@@ -38,9 +38,10 @@
             // txtName
             // 
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(167, 130);
+            this.txtName.Location = new System.Drawing.Point(250, 200);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(305, 26);
+            this.txtName.Size = new System.Drawing.Size(456, 35);
             this.txtName.TabIndex = 0;
             this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
@@ -48,9 +49,10 @@
             // 
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.Location = new System.Drawing.Point(260, 61);
+            this.lblName.Location = new System.Drawing.Point(390, 94);
+            this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(119, 22);
+            this.lblName.Size = new System.Drawing.Size(170, 30);
             this.lblName.TabIndex = 3;
             this.lblName.Text = "Nom du client";
             this.lblName.Click += new System.EventHandler(this.lblName_Click);
@@ -58,9 +60,10 @@
             // cmdAddPizza
             // 
             this.cmdAddPizza.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdAddPizza.Location = new System.Drawing.Point(167, 201);
+            this.cmdAddPizza.Location = new System.Drawing.Point(250, 309);
+            this.cmdAddPizza.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmdAddPizza.Name = "cmdAddPizza";
-            this.cmdAddPizza.Size = new System.Drawing.Size(304, 50);
+            this.cmdAddPizza.Size = new System.Drawing.Size(456, 77);
             this.cmdAddPizza.TabIndex = 2;
             this.cmdAddPizza.Text = "Ajouter une pizza";
             this.cmdAddPizza.UseVisualStyleBackColor = true;
@@ -69,9 +72,10 @@
             // cmdTerminer
             // 
             this.cmdTerminer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdTerminer.Location = new System.Drawing.Point(331, 391);
+            this.cmdTerminer.Location = new System.Drawing.Point(496, 602);
+            this.cmdTerminer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmdTerminer.Name = "cmdTerminer";
-            this.cmdTerminer.Size = new System.Drawing.Size(159, 52);
+            this.cmdTerminer.Size = new System.Drawing.Size(238, 80);
             this.cmdTerminer.TabIndex = 3;
             this.cmdTerminer.Text = "Terminer";
             this.cmdTerminer.UseVisualStyleBackColor = true;
@@ -80,9 +84,10 @@
             // cmdAdress
             // 
             this.cmdAdress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdAdress.Location = new System.Drawing.Point(87, 391);
+            this.cmdAdress.Location = new System.Drawing.Point(130, 602);
+            this.cmdAdress.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmdAdress.Name = "cmdAdress";
-            this.cmdAdress.Size = new System.Drawing.Size(149, 52);
+            this.cmdAdress.Size = new System.Drawing.Size(224, 80);
             this.cmdAdress.TabIndex = 4;
             this.cmdAdress.Text = "Adresse de livraison";
             this.cmdAdress.UseVisualStyleBackColor = true;
@@ -90,14 +95,15 @@
             // 
             // wndPizzaCommend
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 503);
+            this.ClientSize = new System.Drawing.Size(900, 774);
             this.Controls.Add(this.cmdAdress);
             this.Controls.Add(this.cmdTerminer);
             this.Controls.Add(this.cmdAddPizza);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.txtName);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "wndPizzaCommend";
             this.Text = "Command";
             this.TopMost = true;

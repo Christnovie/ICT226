@@ -56,6 +56,7 @@ namespace PizzaOne
                 {
                     while (reader.Read())
                     {
+                        //pick up result of script and input it in the string var
                         showResult += Convert.ToString(reader.GetUInt32(0)) + "\t" + reader.GetString(1) + "\t" + reader.GetString(2) + "\r\n";
                     }
                     reader.Close();

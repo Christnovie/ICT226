@@ -15,6 +15,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Forms.Integration;
+
 using PizzaOne;
 
 namespace PizzaCommend
@@ -24,28 +26,36 @@ namespace PizzaCommend
     /// </summary>
     public partial class Login : UserControl
     {
+
         public Login()
         {
             InitializeComponent();
         }
 
-        private void cmd_Submit_Click(object sender, RoutedEventArgs e)
+        private int cmd_Submit_Click(object sender, RoutedEventArgs e)
         {
             string name = txt_Name.Text;
             string password = txt_password.Text;
            
-            string query = "SELECT * FROM users";
+            string query = $"SELECT password FROM users where name ='{name}';";
             
             DbConnectorParam loginCheck = new DbConnectorParam(query);
             if (loginCheck.Result != null)
             {
-                Console.WriteLine("Connexion reussi");
+                if (password == loginCheck.Result)
+                    Console.WriteLine("Connexion reussi");
+                else
+                    Console.WriteLine("Connexion fail");
+                return 0;
             }
             else
             {
-                Console.WriteLine("Connexion echouer");
+
+                return 0;
             }
 
         }
+
+
     }
 }
