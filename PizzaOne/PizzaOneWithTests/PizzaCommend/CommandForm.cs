@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySqlX.XDevAPI;
 using PizzaOne;
 
 
@@ -14,6 +15,7 @@ namespace PizzaCommend
 {
     public partial class wndPizzaCommend : Form
     {
+        
         private List<Pizza> commande;
         public wndPizzaCommend()
         {
@@ -50,12 +52,21 @@ namespace PizzaCommend
 
         private void cmdAdress_Click(object sender, EventArgs e)
         {
-            wnd_Login2 login = new wnd_Login2();
-            if (login.ShowDialog() == DialogResult.OK)
+            if (cmdAdress.Text == "Deconnection")
             {
-                MessageBox.Show("connection reussi");
-                lblName.Text = login.User;
-                txtName.Text = login.User;
+                cmdAdress.Text = "Connexion";
+            }
+            else
+            {
+                wnd_Login2 login = new wnd_Login2();
+                if (login.ShowDialog() == DialogResult.OK)
+                {
+                    
+                    MessageBox.Show("connection reussi");
+                    lblName.Text = login.User;
+                    txtName.Text = login.User;
+                    cmdAdress.Text = "Deconnection";
+                }
             }
         }
     }

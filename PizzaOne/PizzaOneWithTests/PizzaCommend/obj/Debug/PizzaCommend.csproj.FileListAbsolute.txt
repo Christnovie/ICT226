@@ -80,3 +80,4 @@ C:\ICT-226\Exercices\PizzaOne\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\obj
 C:\ICT-226\Exercices\PizzaOne\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\obj\Debug\PizzaCommend.csproj.CoreCompileInputs.cache
 C:\ICT-226\Exercices\PizzaOne\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\obj\Debug\PizzaCommend.csproj.CopyComplete
 C:\ICT-226\Exercices\PizzaOne\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\obj\Debug\PizzaCommend.wnd_Login2.resources
+C:\ICT-226\Exercices\PizzaOne\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\obj\Debug\PizzaCommend.Register.resources

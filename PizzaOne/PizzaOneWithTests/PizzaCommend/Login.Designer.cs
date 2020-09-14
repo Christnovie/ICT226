@@ -1,6 +1,6 @@
 ﻿namespace PizzaCommend
 {
-    partial class wnd_Register
+    partial class wnd_Login2
     {
         /// <summary>
         /// Required designer variable.
@@ -33,6 +33,7 @@
             this.txt_name = new System.Windows.Forms.TextBox();
             this.lbl_name = new System.Windows.Forms.Label();
             this.lbl_password = new System.Windows.Forms.Label();
+            this.cmd_register = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cmd_login
@@ -80,6 +81,19 @@
             this.lbl_password.TabIndex = 4;
             this.lbl_password.Text = "Password";
             // 
+            // cmd_register
+            // 
+            this.cmd_register.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.cmd_register.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmd_register.Location = new System.Drawing.Point(301, 304);
+            this.cmd_register.Name = "cmd_register";
+            this.cmd_register.Size = new System.Drawing.Size(75, 23);
+            this.cmd_register.TabIndex = 5;
+            this.cmd_register.Text = "Register";
+            this.cmd_register.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.cmd_register.UseVisualStyleBackColor = false;
+            this.cmd_register.Click += new System.EventHandler(this.cmd_register_Click);
+            // 
             // wnd_Login2
             // 
             this.AcceptButton = this.cmd_login;
@@ -87,6 +101,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(571, 450);
+            this.Controls.Add(this.cmd_register);
             this.Controls.Add(this.lbl_password);
             this.Controls.Add(this.lbl_name);
             this.Controls.Add(this.txt_name);
@@ -106,5 +121,6 @@
         private System.Windows.Forms.TextBox txt_name;
         private System.Windows.Forms.Label lbl_name;
         private System.Windows.Forms.Label lbl_password;
+        private System.Windows.Forms.Button cmd_register;
     }
 }
