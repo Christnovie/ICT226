@@ -36,7 +36,7 @@ namespace PizzaCommend
                 DbConnectorParam userCheck = new DbConnectorParam(query);
                 if (userCheck.Result == "") {
 
-                    string squery = $"INSERT INTO users(name,password)VALUE('{txt_name.Text}','{hashPassword.Pwd_hashed}');";
+                    string squery = $"INSERT INTO users(name,password,salt)VALUE('{txt_name.Text}','{hashPassword.Pwd_hashed}','{hashPassword.Pwd_Salt}');";
                     DbConnectorParam registring = new DbConnectorParam(squery);
                     DbConnectorParam registryCheck = new DbConnectorParam(query);
                     if (registryCheck.Result == hashPassword.Pwd_hashed )

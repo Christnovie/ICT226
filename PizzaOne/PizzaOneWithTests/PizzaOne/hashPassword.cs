@@ -13,6 +13,7 @@ namespace PizzaOne
     public class hashPassword
     {
         private string password;
+        private byte[] salt;
         public hashPassword(string password)
         {
             hashing(password);
@@ -30,6 +31,7 @@ namespace PizzaOne
             prf: KeyDerivationPrf.HMACSHA1,
             iterationCount: 10000,
             numBytesRequested: 256 / 8));
+            this.salt = salt;
         }
 
         public  string Pwd_hashed
@@ -37,6 +39,13 @@ namespace PizzaOne
             get
             {
                 return password;
+            }
+        }
+        public byte[] Pwd_Salt
+        {
+            get
+            {
+                return salt;
             }
         }
     }

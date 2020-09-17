@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PizzaOne;
+using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using MySql.Data.MySqlClient;
 
 namespace PizzaOneTests
@@ -19,7 +20,7 @@ namespace PizzaOneTests
         {
             string query = "SELECT * FROM users;";
            
-                DbConnector loginCheck = new DbConnector("cmysql", "password", query);
+                DbConnector loginCheck = new DbConnector("cmysql", "password", query,"cdatabase");
             string result = loginCheck.Result;
 
             Assert.IsNotNull(result);
@@ -29,7 +30,7 @@ namespace PizzaOneTests
         {
             string query = "SELECT * FROM users;";
 
-            DbConnector loginCheck = new DbConnector("test", "password", query);
+            DbConnector loginCheck = new DbConnector("test", "password", query, "cdatabase");
             string result = loginCheck.Result;
 
             Assert.IsNull(result);

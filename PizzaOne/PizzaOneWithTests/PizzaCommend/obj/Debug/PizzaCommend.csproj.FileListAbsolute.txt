@@ -90,3 +90,10 @@ C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\Mi
 C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
 C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\obj\Debug\PizzaCommend.wnd_Login2.resources
 C:\ICT-226\Exercices\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\obj\Debug\PizzaCommend.Register.resources
+C:\ICT-226\Exercices\PizzaOne\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\ICT-226\Exercices\PizzaOne\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ICT-226\Exercices\PizzaOne\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\ICT-226\Exercices\PizzaOne\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\ICT-226\Exercices\PizzaOne\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\PizzaOne.dll.config
+C:\ICT-226\Exercices\PizzaOne\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\ICT-226\Exercices\PizzaOne\ICT226\PizzaOne\PizzaOneWithTests\PizzaCommend\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml

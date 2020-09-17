@@ -409,6 +409,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Password_Verify.cs" />
     <Compile Include="DbConnectorParam.cs" />
     <Compile Include="DbConnector.cs" />
     <Compile Include="CommandMess.cs" />
