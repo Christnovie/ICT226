@@ -41,8 +41,8 @@ namespace PizzaCommend
             DbConnectorParam loginCheck = new DbConnectorParam(query);
             query = $"SELECT salt FROM users where name ='{name}';";
             DbConnectorParam loginSalt = new DbConnectorParam(query);
-            byte[] salt = Convert.ToByte(loginSalt.Result)
-            if (new Password_Verfy(txt_password,loginSalt.Result,loginCheck.Result).result)
+          string salt = loginSalt.Result;
+            if (new Password_Verfy(txt_password.Text,loginSalt.Result,loginCheck.Result).result)
             {
                 if (password == loginCheck.Result)
                     Console.WriteLine("Connexion reussi");

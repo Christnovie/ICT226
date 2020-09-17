@@ -50,14 +50,14 @@ namespace PizzaOne
                 //execute query and get query result 
                 MySqlDataReader reader = command.ExecuteReader();
                
-                object showResult = "";
+                string showResult = "";
                 //Show in console the script result
                 if (reader.HasRows)
                 {
                     while (reader.Read())
                     {
                         //pick up result of script and input it in the string var
-                        showResult = reader;
+                        showResult = reader.GetString(0);
                     }
                     reader.Close();
                 }

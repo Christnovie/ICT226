@@ -20,7 +20,7 @@ namespace PizzaOne
             result = loginCheck.Result;
 
         }
-        public object Result
+        public string Result
         {
             get
             {

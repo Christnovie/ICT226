@@ -41,11 +41,16 @@ namespace PizzaOne
                 return password;
             }
         }
-        public byte[] Pwd_Salt
+        public string Pwd_Salt
         {
             get
             {
-                return salt;
+                string saltPath = "";
+                foreach(byte item in salt)
+                {
+                    saltPath += $"{item}-";
+                }
+                return saltPath;
             }
         }
     }

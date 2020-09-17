@@ -26,11 +26,12 @@ namespace PizzaCommend
             string password = txt_password.Text;
 
             string query = $"SELECT password FROM users where name ='{name}';";
-
             DbConnectorParam loginCheck = new DbConnectorParam(query);
+            query = $"SELECT salt FROM users where name ='{name}';";
+            DbConnectorParam loginSalt = new DbConnectorParam(query);
             if (loginCheck.Result != null)
             {
-                if (password == loginCheck.Result)
+                if (new Password_Verfy(txt_password.Text, loginSalt.Result, loginCheck.Result).result)
                 {
                     Console.WriteLine("Connexion reussi");
                     DialogResult = DialogResult.OK;
