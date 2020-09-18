@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnailMail", "SnailMail\SnailMail.csproj", "{CC7DB352-3E44-4BC2-A170-BC521ABE7E49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnailMailTests", "SnailMailTests\SnailMailTests.csproj", "{0C768785-F852-4015-BCD5-C0FDEAA15218}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC7DB352-3E44-4BC2-A170-BC521ABE7E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7DB352-3E44-4BC2-A170-BC521ABE7E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7DB352-3E44-4BC2-A170-BC521ABE7E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7DB352-3E44-4BC2-A170-BC521ABE7E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C768785-F852-4015-BCD5-C0FDEAA15218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C768785-F852-4015-BCD5-C0FDEAA15218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C768785-F852-4015-BCD5-C0FDEAA15218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C768785-F852-4015-BCD5-C0FDEAA15218}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {260DB655-6308-4028-A5EF-6C7D67CE8762}
+	EndGlobalSection
+EndGlobal

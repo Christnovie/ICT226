@@ -1,0 +1,12 @@
+C:\Users\phi\source\repos\SnailMail\SnailMail\bin\Debug\SnailMail.dll
+C:\Users\phi\source\repos\SnailMail\SnailMail\bin\Debug\SnailMail.pdb
+C:\Users\phi\source\repos\SnailMail\SnailMail\obj\Debug\SnailMail.csprojAssemblyReference.cache
+C:\Users\phi\source\repos\SnailMail\SnailMail\obj\Debug\SnailMail.csproj.CoreCompileInputs.cache
+C:\Users\phi\source\repos\SnailMail\SnailMail\obj\Debug\SnailMail.dll
+C:\Users\phi\source\repos\SnailMail\SnailMail\obj\Debug\SnailMail.pdb
+C:\ICT-226\Exercices\PizzaOne\ICT226\SnailMail\SnailMail\bin\Debug\SnailMail.dll
+C:\ICT-226\Exercices\PizzaOne\ICT226\SnailMail\SnailMail\bin\Debug\SnailMail.pdb
+C:\ICT-226\Exercices\PizzaOne\ICT226\SnailMail\SnailMail\obj\Debug\SnailMail.csprojAssemblyReference.cache
+C:\ICT-226\Exercices\PizzaOne\ICT226\SnailMail\SnailMail\obj\Debug\SnailMail.csproj.CoreCompileInputs.cache
+C:\ICT-226\Exercices\PizzaOne\ICT226\SnailMail\SnailMail\obj\Debug\SnailMail.dll
+C:\ICT-226\Exercices\PizzaOne\ICT226\SnailMail\SnailMail\obj\Debug\SnailMail.pdb
