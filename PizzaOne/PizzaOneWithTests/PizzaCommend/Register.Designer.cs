@@ -41,7 +41,7 @@
             // txt_name
             // 
             this.txt_name.Location = new System.Drawing.Point(258, 159);
-            this.txt_name.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_name.Margin = new System.Windows.Forms.Padding(2);
             this.txt_name.Name = "txt_name";
             this.txt_name.Size = new System.Drawing.Size(200, 20);
             this.txt_name.TabIndex = 0;
@@ -49,7 +49,7 @@
             // txt_pwd
             // 
             this.txt_pwd.Location = new System.Drawing.Point(258, 211);
-            this.txt_pwd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_pwd.Margin = new System.Windows.Forms.Padding(2);
             this.txt_pwd.Name = "txt_pwd";
             this.txt_pwd.Size = new System.Drawing.Size(200, 20);
             this.txt_pwd.TabIndex = 1;
@@ -58,7 +58,7 @@
             // txt_confirmPwd
             // 
             this.txt_confirmPwd.Location = new System.Drawing.Point(258, 265);
-            this.txt_confirmPwd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_confirmPwd.Margin = new System.Windows.Forms.Padding(2);
             this.txt_confirmPwd.Name = "txt_confirmPwd";
             this.txt_confirmPwd.Size = new System.Drawing.Size(200, 20);
             this.txt_confirmPwd.TabIndex = 2;
@@ -67,7 +67,7 @@
             // cmd_submit
             // 
             this.cmd_submit.Location = new System.Drawing.Point(258, 320);
-            this.cmd_submit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmd_submit.Margin = new System.Windows.Forms.Padding(2);
             this.cmd_submit.Name = "cmd_submit";
             this.cmd_submit.Size = new System.Drawing.Size(90, 29);
             this.cmd_submit.TabIndex = 3;
@@ -78,7 +78,7 @@
             // cmd_cancel
             // 
             this.cmd_cancel.Location = new System.Drawing.Point(367, 320);
-            this.cmd_cancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmd_cancel.Margin = new System.Windows.Forms.Padding(2);
             this.cmd_cancel.Name = "cmd_cancel";
             this.cmd_cancel.Size = new System.Drawing.Size(90, 29);
             this.cmd_cancel.TabIndex = 4;
@@ -120,6 +120,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(742, 450);
             this.Controls.Add(this.lbl_confirmPwd);
             this.Controls.Add(this.lbl_pwd);

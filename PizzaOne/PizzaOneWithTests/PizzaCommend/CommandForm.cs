@@ -69,5 +69,10 @@ namespace PizzaCommend
                 }
             }
         }
+
+        private void wndPizzaCommend_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

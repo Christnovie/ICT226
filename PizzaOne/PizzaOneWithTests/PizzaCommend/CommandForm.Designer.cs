@@ -68,30 +68,37 @@
             // 
             // cmdTerminer
             // 
+            this.cmdTerminer.BackColor = System.Drawing.Color.DodgerBlue;
+            this.cmdTerminer.FlatAppearance.BorderSize = 0;
+            this.cmdTerminer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmdTerminer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdTerminer.Location = new System.Drawing.Point(331, 391);
             this.cmdTerminer.Name = "cmdTerminer";
             this.cmdTerminer.Size = new System.Drawing.Size(159, 52);
             this.cmdTerminer.TabIndex = 3;
             this.cmdTerminer.Text = "Terminer";
-            this.cmdTerminer.UseVisualStyleBackColor = true;
+            this.cmdTerminer.UseVisualStyleBackColor = false;
             this.cmdTerminer.Click += new System.EventHandler(this.cmdTerminer_Click);
             // 
             // cmdAdress
             // 
+            this.cmdAdress.BackColor = System.Drawing.Color.ForestGreen;
+            this.cmdAdress.FlatAppearance.BorderSize = 0;
+            this.cmdAdress.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmdAdress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdAdress.Location = new System.Drawing.Point(87, 391);
             this.cmdAdress.Name = "cmdAdress";
             this.cmdAdress.Size = new System.Drawing.Size(149, 52);
             this.cmdAdress.TabIndex = 4;
             this.cmdAdress.Text = "Connection\r\n";
-            this.cmdAdress.UseVisualStyleBackColor = true;
+            this.cmdAdress.UseVisualStyleBackColor = false;
             this.cmdAdress.Click += new System.EventHandler(this.cmdAdress_Click);
             // 
             // wndPizzaCommend
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Brown;
             this.ClientSize = new System.Drawing.Size(600, 503);
             this.Controls.Add(this.cmdAdress);
             this.Controls.Add(this.cmdTerminer);
@@ -101,6 +108,7 @@
             this.Name = "wndPizzaCommend";
             this.Text = "Command";
             this.TopMost = true;
+            this.Load += new System.EventHandler(this.wndPizzaCommend_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
