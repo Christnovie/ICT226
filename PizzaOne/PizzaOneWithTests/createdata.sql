@@ -13,7 +13,7 @@
 
 
 -- Dumping database structure for c# databaseexerce
-DROP DATABASE IF EXISTS `cdatabase`;
+DROP DATABASE IF EXISTS `usersuserscdatabase`;
 CREATE DATABASE IF NOT EXISTS `cdatabase` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `cdatabase`;
 
@@ -23,8 +23,6 @@ CREATE TABLE IF NOT EXISTS `users` (
   `ID` int unsigned NOT NULL AUTO_INCREMENT,
   `Name` varchar(50) NOT NULL,
   `Password` varchar(100) NOT NULL,
-  
-  
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 INSERT INTO cdatabase.users(users.Name,users.Password) VALUE("test",PASSWORD);
@@ -33,4 +31,3 @@ INSERT INTO cdatabase.users(users.Name,users.Password) VALUE("test",PASSWORD);
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-vege
